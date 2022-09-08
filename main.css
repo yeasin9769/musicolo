@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+header {
+    background-color: #303030;
+    padding: 5px;
+}
+.nev {
+    width: 90%;
+    margin: auto;}
+.logho {
+    display: inline-block;
+    width: 59px;
+}
+header ul {
+    display: inline-block;
+    margin:0px 240px 0px 180px;
+    padding-bottom: 5px;
+}
+header li {
+    display: inline-block;
+    padding: 0px 8px;
+}
+header a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding: 3px 0px;
+}
+header a:hover {
+    background-color: #1a1818;
+    border-radius: 5px;
+    padding: 3px 0px;
+}
+.search {
+    display: inline-block;
+    text-align: right;
+    width: 20px;
+}
+/* ========================================title====================================== */
+#title {
+    background-image: url(img/image--1.png);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    height: 500px;
+}
+.title-writing-part {
+    width: 50%;
+    float: left;
+    padding: 100px;
+    color: #fff;
+    margin: 100px 50px 0px 0px ;
+}
+.title-writing-part h1 {
+    font-size: 70px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+.title-writing-part p {
+    width: 95%;
+    font-size: 18px;
+}
+.title-writing-part button {
+    background-color: #e8631c;
+    color: #fff;
+    padding: 8px 43px;
+    margin-top: 30px;
+    box-shadow: 2px 2px solid #c05014;
+}
+.title-writing-part button:hover {
+    background-color: #c05014;
+}
+.khali-part {
+    width: 50%;
+    float: left;
+}
+/* ==============================================dance-tour================================= */
+#dance-tour {
+    background-color: #e8631c;
+    width: 100%;
+    float: left;
+}
+.dance-tour-writing-part {
+    color: #fff;
+    padding: 50px 0px;
+}
+.dance-tour-writing-part h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.dance-tour-writing-part p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 10px 0px;
+}
+.dance-tour-box-part {
+    width: 100%;
+    float: left;
+}
+.dance-tour-box {
+    width: 33.3333333%;
+    float: left;
+    padding: 50px 0px;
+}
+.dance-tour-box img {
+    width: 220px;
+    margin-left: 55px;
+}
+/* ==============================pricing==================================== */
+#pricing {
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+.pricing-writing-part {
+    color: #fff;
+    padding: 50px 0px;
+}
+.pricing-writing-part h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.pricing-writing-part p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 10px 0px;
+}
+.pricing-box-part {
+    width: 100%;
+    float: left;
+    padding: 40px;
+}
+.pricing-box {
+    width: 33.3333333%;
+    float: left;
+}
+.for-box {
+    background-color: #e8631c;
+    text-align: center;
+    color: #fff;
+    width: 70%;
+    margin:auto;
+    padding: 1px 2px;
+}
+.icon {
+    width: 60px;
+    margin: 30px 40px;
+}
+.for-box h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.for-box input {
+    padding: 7px 70px;
+    margin: 15px 5px;
+    color: #fff;
+    background-color: #303030;
+}
+.for-box input:hover {
+    background-color: #1a1818;
+}
+/* ============================amazingdance============================== */
+#amazing-dance {
+    width: 100%;
+    float: left;
+}
+.amazing-part-img {
+    background-image: url(img/image--3.png);
+    background-size: cover;
+    width: 50%;
+    float: left;
+    height: 700px;
+}
+.amazing-dance-writing {
+    width: 50%;
+    float: left;
+    background-color: #e8631c;
+}
+.amazing-writing-part {
+    color: #fff;
+    width: 60%;
+    margin: 236.5px 102.406px;
+}
+.amazing-writing-part h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+.amazing-writing-part p {
+    font-size: 16px;
+    width: 95%
+}
+.amazing-writing-part input {
+    padding: 7px 50px;
+    margin: 35px 0px;
+    color: #fff;
+    background-color: #303030;
+}
+.amazing-writing-part input:hover {
+    background-color: #1a1818;
+}
+/* =====================================our================================= */
+#our {
+    background-color: #303030;
+    width: 100%;
+    float: left;
+}
+.writer {
+    padding: 70px 0px 70px 0px;
+}
+.our-writing-part {
+    padding: 20px;
+    color: #fff;
+    
+}
+.our-writing-part h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.our-writing-part p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 10px 0px;
+}
+.our-box-part {
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+.our-box {
+    width: 33.333333%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* ==================================simon================================ */
+#simon {
+    background-image: url(img/image--2.png);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    height: 670px;
+}
+.simon-writing-part {
+    color: #fff;
+    padding: 200px 40px;
+    
+}
+.simon-writing-part p {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 25px 0px;
+}
+.simon-writing-part h1 {
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+}
+/* ================================subscribe============================ */
+#subscribe {
+    background-color: #e8631c; 
+    padding: 80px 0px;
+    width: 100%;
+    float: left;
+}
+.subscribe-writing-part {
+    padding: 50px 0px;
+    color: #fff;
+}
+.subscribe-writing-part h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.subscribe-writing-part p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 10px 0px;
+}
+.subscribe-box-part {
+    width: 50%;
+    margin: auto;
+}
+.subscribe-box-part input {
+    padding: 8px 100px 7px 5px;
+    border-radius: 2px;
+    margin-left: 50px;
+}
+.subscribe-box-part button {
+    background-color: #303030;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 2px;
+}
+.subscribe-box-part button:hover {
+    background-color: #1a1818;
+}
+/* ============================================footer=================================== */
+footer {
+    background-color: #303030;
+    width: 100%;
+    float: left;
+}
+.musicol {
+    color: #fff;
+    padding: 10px;
+    padding: 100px 5px;
+}
+.musicolo {
+    width: 50%;
+    float: left;
+}
+.musicolo h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: auto;
+}
+.musicolo p {
+    font-size: 16px;
+    font-weight: 200;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.footer-logho-part {
+    width: 70%;
+    margin: auto;
+}
+.musicolo img {
+    width: 20px;
+}
+.about {
+    width: 16.66666667%;
+    float: left;
+}
+.about h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.about p {
+    font-size: 14px;
+    font-weight: 200;  
+    padding-bottom: 10px;
+    width: 50%;
+} 
+.services {
+    width: 16.66666667%;
+    float: left;
+}
+.services h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.services p {
+    font-size: 14px;
+    font-weight: 200;  
+    padding-bottom: 10px;
+    width: 50%;
+}
+.other {
+    width: 16.66666667%;
+    float: left;
+}
+.other h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.other p {
+    font-size: 14px;
+    font-weight: 200;  
+    padding-bottom: 10px;
+    width: 50%;
+}
